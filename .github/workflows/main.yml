@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Karisss:$HF_TOKEN@huggingface.co/spaces/Karisss/Karisss/RAG-Document-Q-A-Chatbot main
+        run: git push https://Karisss:$HF_TOKEN@huggingface.co/spaces/Karisss/RAG-Document-Q-A-Chatbot main
