@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-####
+########
 # -------------------------------------------------
 # Sidebar: Secure Groq API Key Input
 # -------------------------------------------------
@@ -108,4 +108,5 @@ if user_prompt:
             for i, doc in enumerate(response.get("context", [])):
                 st.write(doc.page_content)
                 st.write("----------")
+
 
